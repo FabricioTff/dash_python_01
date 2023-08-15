@@ -55,9 +55,6 @@ app.layout = html.Div(children=[
                     dbc.Row([dcc.Graph(id="income_per_product_fig")]),
                     dbc.Row([])
                 
-                            
-                    
-                
             ], sm = 10)        
         ])
     ]
@@ -108,4 +105,4 @@ def render_graphs(cities, main_variable):
 # ========= Run server ========= # 
 
 if __name__ == "__main__":
-    app.run_server(debug = True, port = 8050)
+    app.run_server(debug = False, port = 8080, host = "0.0.0.0")
