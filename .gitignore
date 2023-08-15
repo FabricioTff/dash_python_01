@@ -4,3 +4,5 @@ app.py
 app3.py
 callback_1.py
 estudo_de_caso.py
+*.pyc
+.DS_Store
